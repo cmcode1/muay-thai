@@ -1,0 +1,82 @@
+body {
+    background-image: url("https://cdn.shopify.com/s/files/1/0253/7245/9094/files/muay_thai_kick_rodtang.jpg?v=1622616816");
+    background-size: cover;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 3px black, 0 0 15px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#total{
+    background: lightcyan;
+    width: 50vh;
+    height: 300px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 10px;
+
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+
+}
+
+#save-el {
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+}
+
+#increment-btn, #save-btn, #reset-btn {
+    border-radius: 50px;
+    max-width: 150px;
+    color: bisque;
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+}
+
+
+#increment-btn {
+    background: darkred;
+
+}
+
+#save-btn {
+    background: darkgreen;
+
+}
+
+#reset-btn {
+    background: rgb(29, 48, 176);
+
+}
